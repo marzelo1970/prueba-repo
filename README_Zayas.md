@@ -11,7 +11,7 @@ Ejercicio para la publicación de información dentro de GitHub.
 - [Tablas](#tablas)
 - [Citas en bloques](#citas-en-bloque)
 - [Líneas](#línea-horizontal)
-- [Salto de línea](#salto-de-línea)
+- [Saltos de línea](#saltos-de-línea)
 - [Colaboradores](#colaboradores)
 
 ## Encabezados
