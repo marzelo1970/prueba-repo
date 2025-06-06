@@ -143,8 +143,7 @@ Sirve para dividir ideas o partes del texto. Se alternando guiones o asterizcos 
 
 Los saltos de líneas se hacen presionando dos veces la tecla "< Enter >"
 
-
-
+Se puede utilizar para separar dos párrafos.
 - [Volver al inicio](#tabla-de-contenidos)
 ## Colaboradores
 Marzelo1970
