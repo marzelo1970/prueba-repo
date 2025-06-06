@@ -121,9 +121,31 @@ Se pueden utilizar para marcar la evolución de proyectos.
 |Trabajo 3    | 03 de junio de 2025   | No         | Carlos y Juan |
 - [Volver al inicio](#tabla-de-contenidos)
 ## Citas en Bloques
+La "Cita en bloque" (o Blockquote) en Markdown es una forma de resaltar un texto como si estuvieras citando a alguien o haciendo referencia a una idea o fuente externa. Se utiliza con el símbolo mayor que (>) al comienzo de la línea.
 
+> Estoy haciendo una referencia a un texto externo.
+
+> La cita puede estar detallada en varios renglones.
+> No es necesario que realices tarea alguna para que la cita aparezca en la misma llamada.
+
+- [Volver al inicio](#tabla-de-contenidos)
 ## Línea Horizontal
 
+Sirve para dividir ideas o partes del texto. Se alternando guiones o asterizcos y espacios.
+```
+- - - -
+* * * *
+```
+- - - - 
+* * * *
+- [Volver al inicio](#tabla-de-contenidos)
 ## Saltos de Línea
 
+Los saltos de líneas se hacen presionando dos veces la tecla "< Enter >"
+
+
+
+- [Volver al inicio](#tabla-de-contenidos)
 ## Colaboradores
+Marzelo1970
+- [Volver al inicio](#tabla-de-contenidos)
