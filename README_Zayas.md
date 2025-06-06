@@ -58,3 +58,72 @@ Dentro de la lista ordenada puedes también tener listas sin ordenar
 
 ## Enlaces
 
+Se utiliza para realizar la conexión con sitios. Para indicar que es un hipervínculo, se debe poner entre corchetes una palabra clave o un texto [Palabra Clave] [Esto es un hipervínculo], esto le indica al sistema que estamos por realizar un salto a otra parte o sitio, seguido de los corchetes, sin espacios, entre paréntesis se coloca la URL o la palabra a la cual se hace mención. Es el mismo sistema que se utilizó en el principio en la Tabla de contenidos de arriba.
+- [Hipervínculo con Instagram](https://www.instagram.com/)
+- [Hipervínculo con Google](https://www.google.com/)
+- [Hipervínculo con Facebook](https://www.facebook.com/)
+
+Nota: Al hacer clic en los Hipervínculos la página se abre en la misma solapa, bajo una advertencia que estamos abandonando el sitio GitHub, por lo que para abrir los otros sitios en otra página lo recomendable es hacer Ctrl+clic sobre el Hipervínculo para abrirlo en una nueva pestaña.
+
+## Imágenes
+
+La función es igual que en los enlaces, la única diferencia es que en Marcdown con el signo de exlamación "!" se le indica que lo que sigue es un enlace a una **imagen** no a un sitio.
+
+Este sería el formato: **"![Texto alternativo] (URL-de-la-imagen)"**
+
+![Logo de GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+Si queremos agregarle un texto para que sea visible al pasar el cursor por encima de la imagen debemos hacerlo del siguiente modo, agregando luego de la URL de la imagen entre **Comillas** " " el texto deseado.
+
+![Logo de GitHub](https://github.com/marzelo1970/prueba-repo/blob/main/icons8-github-480.png "Acá estoy agregando el TEXTO para el mouse")
+
+## Resaltado de Código y Sintaxis
+
+Se utilizan tres "`" consecutivos y se indica que tipo de lenguaje es el que sigue, **_Python_** o ***Javascript***
+
+```javascript
+var s = "Ejemplo de sintaxis en JavaScript";
+alert(s);
+```
+```python
+s = "Ejemplo de sintaxis en Python"
+print(s)
+```
+```
+Texto sin un lenguaje determinado
+Añadiremos una etiqueta <b>Etiqueta</b>
+```
+
+## Notas al pie
+
+Se utiliza para hacer referencias. Las referencias pueden estar en varias líneas, pero cada vez que se inicia una nueva línea, el texto debe estar precedido de dos espacios. Los enlaces a notas pueden estar enumerados como los dos primeros casos, o pueden tener palabras claves como Nota, Ejemplo, etc.
+
+- Este es un ejemplo de referencia [^1][¹]
+- Este es otro ejemplo de referencia [^2][²]
+- Este es un ejemplo de nota [^note]
+
+[¹] Referencia 1
+[²] Referencia 2
+[^note] Nota.
+
+## Tablas
+Se pueden utilizar para marcar la evolución de proyectos.
+```
+| Descripción proyecto | Fecha inicio | Fecha finalización |
+|----------------------|:-----------------:|:-----------------:|
+| Trabajo 1            | 12 de mayo 2025 | 15 de mayo 2025 |
+| Trabajo 2            | 13 de mayo 2025 | En desrrollo |
+```
+| Proyecto    |	Inicio                | Finalizado | Operador |
+|-------------|:---------------------:|:----------:|:--------:|
+|Trabajo 1   	| 15 de mayo de 2025   	| Si         |Juan      |
+|Trabajo 2  	| 20 de mayo de 2025    | Si         |Carlos    |
+|Trabajo 3    | 03 de junio de 2025   | No         | Carlos y Juan |
+
+## Citas en Bloques
+
+## Línea Horizontal
+
+## Saltos de Línea
+
+## Colaboradores
